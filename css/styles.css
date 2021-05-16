@@ -1,0 +1,109 @@
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+}
+h1{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    color: rgb(5, 211, 211);
+    font-size: 70px;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(5, 211, 211);
+    font-size: 2.5 rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+hr{
+    border: dotted 6px;
+    width: 4%;    
+    border-bottom: none;
+    
+    border-color: gray;
+    
+}
+
+.bottomcloud{
+    position:absolute;
+    left:350px;
+}
+
+.btn{
+    background-color: #2db6b6;
+    height: 30px;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 17px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: black;
+}
+.footer{
+    background-color:#66bfbf ;
+    height: 100px;
+
+}
+
+.message{
+    width: 40%;
+    margin: 0 auto 10px auto;
+}
+.middle{
+    padding-top: 10px;
+}
+
+.skills{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.top{
+    background-color:#cdf8f8;
+    height: 500px;
+    padding-top: 100px;
+
+}
+
+.topcloud{
+    position:absolute;
+    right:300px;
+    top:70px;
+}
+
+.image1{
+    float: left;
+    margin-right: 40px;
+}
+
+.image2{
+    float: right;
+    margin-left: 40px;
+}
+
+@media (max-width:1028px){
+
+    
+    .mountain{
+        width:100%;
+    }
+
+    .bottomcloud{
+        width: 25%;
+    }
+}
